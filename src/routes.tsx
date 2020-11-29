@@ -7,6 +7,7 @@ import { NotFoundPage } from "./pages/not-found-page";
 export const routes = (
     <Switch>
         <Route path="/" exact={true} component={RootPage} />
+        <Route path="/notfound" exact={true} component={NotFoundPage} />
         <Route path="/:order" exact={true} component={RegionPage} />
         <Route component={NotFoundPage} />
     </Switch>

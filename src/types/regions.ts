@@ -46,3 +46,7 @@ export type RegionInfo = {
     "funds_staff,_thousand_rubles": number;
     funds_acquisition: number;
 };
+
+export type IndexedRegionInfo = RegionInfo & {
+    [key: string]: string | number;
+};
