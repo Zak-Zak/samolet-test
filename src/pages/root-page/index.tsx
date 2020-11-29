@@ -3,9 +3,7 @@ import { Layout } from "antd";
 
 import { getData } from "../../utils/api";
 
-import "./app.css";
-
-export default function App() {
+export const RootPage: React.FC = () => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
@@ -17,4 +15,4 @@ export default function App() {
             <pre>{JSON.stringify(data, null, 2)}</pre>
         </Layout>
     );
-}
+};
