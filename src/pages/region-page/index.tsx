@@ -24,7 +24,7 @@ const REGION_FIELDS_TITLES: Record<string, string> = {
     buildings_repair: "Зданий восстановлено",
     buildings_disrepair: "Зданий в аварийном состоянии",
     buildings_management: "Зданий под управлением",
-    libraries_computers: "Количество компьютеров",
+    libraries_computers: "Количество зданий с компьютерами",
     internet: "Подключено к сети интернет",
     computers: "Количество комьютеров",
 };
